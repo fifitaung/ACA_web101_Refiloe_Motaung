@@ -4,7 +4,14 @@ body {
     background-repeat: no-repeat;
     background-size: 1600px 1000px;
     width: 100vw;
-
+    height: 100vh;
+  }
+  /* What kind of selector is this? */
+  .logo {
+    width: 150px;
+    height: 100px;
+    margin: 3% 10%;
+  }
  
   header {
 
