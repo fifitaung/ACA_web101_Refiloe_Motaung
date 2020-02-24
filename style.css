@@ -1,0 +1,70 @@
+#container{
+  width: 850px;
+  height: 774px; 
+  padding-left: 20px;
+ 
+
+}
+#header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(./NasaImage.jpg);
+    width: 850px;
+    height: 480px; 
+    font-size: 100px;
+    
+    
+}
+
+span{
+    color: whitesmoke;
+}
+
+.flex-container{
+    display:flex;
+    justify-content: row;
+    background-color:#E6E6E6;
+    height: 324px;
+    font-size:15px;
+    
+    
+    
+    
+
+}
+
+#socialMedia{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 270px;
+    padding:20px;
+    
+    
+
+    
+      
+}
+#officeInfo{
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    line-height: 0px;
+    width: 270px;
+    padding:20px;
+    
+   
+    
+}
+
+#contactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 25px;
+    
+
+
+}
+    
