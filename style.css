@@ -42,6 +42,7 @@ span{
     padding:20px;
     
     
+    
 
     
       
@@ -50,10 +51,11 @@ span{
     display:flex;
     flex-direction: column; 
     justify-content: center;
-    line-height: 0px;
     width: 270px;
     padding:20px;
+    line-height: 0px;
     
+
    
     
 }
