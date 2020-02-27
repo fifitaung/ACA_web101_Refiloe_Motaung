@@ -1,0 +1,22 @@
+body {
+    background-color: violet;
+    margin: 0;
+}
+
+#container {
+    width: 1024px;
+    height: 774px;
+    background-color: white;
+    margin: auto;
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-color: green;
+    }
+
+}
+
+#container{
+    width: 500px;
+}
