@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    
+    
+   
+    }
+
+header{
+    
+    background-color: #C5D3EE;
+    line-height: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+#logo{
+    width: 100px;
+    float: left;
+}
+
+
+
+#horizontalRule{
+    color:  #C5D3EE;
+    width: 350px;
+    margin-left: 0;
+    border-color: #C5D3EE;
+    
+
+}
+
+.portfolio{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+p{
+    text-align: left;
+}
+
+h3{text-align: left;}
+
+img{
+    border-radius: 50%;
+    width: 200px;
+    
+    
+    
+    
+}
+
+.education{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 200px;
+    padding: 10px;
+    
+    
+}
+
+#edu{
+    background-color:#C5D3EE ;
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#skills{
+    text-align: center;
+}
+
+ul{
+    background-color:#C5D3EE ;
+    text-align: justify;
+    padding: 10px;
+    line-height: 75px;
+}
+
+#expert{
+    background-color:#C5D3EE ;
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+
+ .experience{
+    height: 100%;
+    padding: 3%;
+} 
+
+#exp{
+    background-color:#C5D3EE ;
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+#first{
+    float: left;
+    width: 61%;
+
+}
+
+#second{ 
+    float: right;
+    width: 27%;
+
+
+}
+
+
