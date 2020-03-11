@@ -1,9 +1,11 @@
 body{
-    margin: 0;
-    
-    
-   
-    }
+    width: 1024px;
+    margin: 0;   
+}
+
+.main{
+    height: 772px;
+}
 
 header{
     
@@ -11,6 +13,8 @@ header{
     line-height: 30px;
     text-align: center;
     padding: 20px;
+
+    
 }
 
 #logo{
@@ -35,6 +39,7 @@ header{
     grid-gap: 200px;
     padding: 10px;
     text-align: center;
+    
 }
 
 p{
