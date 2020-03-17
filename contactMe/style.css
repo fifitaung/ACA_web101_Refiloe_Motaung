@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #70718B;
+    background-size: cover ;
+}
+
+form {
+   
+    max-width: 680px;
+    margin: 100px auto 0;
+    padding: 80px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    
+    
+
+}
+
+h1{
+    letter-spacing: 8px;
+
+}
+
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    
+
+}
+
+textarea{
+    resize: vertical;
+    max-height: 100px;
+}
+
+input:focus, textarea:focus{
+    box-shadow: 0 0 4px rgba(194, 49, 182, 0.5);
+    border: 1px solid rgba(194, 49, 182, 0.5);
+
+}
+
+button{
+    float: right;
+    border: 0;
+    background: #70718B;
+    color: #ffff;
+    padding: 12px 50px;
+    border-radius: 15px;
+}
+
