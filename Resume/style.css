@@ -3,7 +3,7 @@ body{
     margin: 0;   
 }
 
-.main{
+.main {
     height: 772px;
 }
 
@@ -17,23 +17,24 @@ header{
     
 }
 
-#logo{
+
+#logo {
     width: 100px;
     float: left;
 }
 
 
 
-#horizontalRule{
+#horizontalRule {
     color:  #C5D3EE;
     width: 350px;
-    margin-left: 0;
+    align-items: center;
     border-color: #C5D3EE;
+    
     
 
 }
-
-.portfolio{
+ .portfolio{
     display: grid;
     grid-template-columns: auto auto auto ;
     grid-gap: 200px;
@@ -42,22 +43,33 @@ header{
     
 }
 
-p{
+p {
     text-align: left;
 }
 
-h3{text-align: left;}
+h3{text-align: left;
+}
 
 img{
     border-radius: 50%;
-    width: 200px;
-    
-    
-    
+    width: 200px;  
     
 }
 
-.education{
+.image:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+
+    
+}
+
+.portfolio{
+    display: flex;
+    justify-content: center;
+}
+
+.education {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 200px;
@@ -114,5 +126,7 @@ ul{
 
 
 }
+
+
 
 

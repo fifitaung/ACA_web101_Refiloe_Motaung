@@ -9,11 +9,12 @@
 
     <body>
         
+        <div class="container">
             <header>
 
                 <img id="logo"src="logoimg.JPG"/>
                 <div id="name">
-                <h1>Shaquilla Motswatswa</h1>
+                <h1 class="myname">Shaquilla Motswatswa</h1>
                 <h2>Sous Chef</h2>
                 </div>
             </header>
@@ -22,6 +23,7 @@
                 
                 <section class="portfolio">
                 <div>
+                    <div>
                 <h2 id="profile">Profile</h2>
                 <hr id="horizontalRule"/>
 
@@ -34,19 +36,22 @@
                 to becoming the executive chef.
 
                 </p>
+                    </div>
 
-                </div>
+            
                 
-                <div>
+                <div id="image">
 
-                <img src="resumeimg.JPG"/>
+                <img class="image" onclick="toggleClass(this)" src="resumeimg.JPG"/>
                 </div>
                 
                 <div>
                 <h2 id="reach">Reach Me</h2>
                 <hr id="horizontalRule"/>
-                <h3>Mobile:     +1 512 853 1868</h3>
-                <h3>E-Mail:    	motswatswashaquilla@gmail.com</h3>
+                <h3 class="num">Mobile:     +1 512 853 1868</h3>
+                <h2>E-Mail:    	motswatswashaquilla@gmail.com</h3>
+                </div>
+
                 </div>
                 
                 </section>
@@ -193,10 +198,12 @@
                 
                 </section>
                 
-                
                 </main>
-
+         </div>       
+         <script src="resume-interaction.js"></script>
     </body>
+   
+        
 
 </html>
          
