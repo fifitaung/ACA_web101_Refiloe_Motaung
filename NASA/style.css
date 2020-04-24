@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
 #container{
   width: 850px;
   height: 774px; 
-  padding-left: 20px;
+  padding-left: 20%;
  
 
 }
@@ -23,50 +29,44 @@ span{
 
 .flex-container{
     display:flex;
-    justify-content: row;
+    justify-content: center;
+    flex-direction: row;
     background-color:#E6E6E6;
     height: 324px;
-    font-size:15p;
-    
-    
-    
-    
+    width: 850px;
+    font-size:15px;
 
 }
 
-#socialMedia{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 270px;
-    padding:20px;
-    
-    
-    
-
-    
-      
-}
-#officeInfo{
-    display:flex;
-    flex-direction: column; 
-    justify-content: center;
-    width: 270px;
-    padding:20px;
-    line-height: 0px;
-    
-
-   
-    
+.flex-container div{
+    padding: 15px;
+    margin-top: 40px;
 }
 
-#contactUs{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 25px;
-    
-
-
+.flex-container p{
+    font-size: 20px;
 }
-    
+
+.flex-container form{
+    margin-top: 20px;
+    width: 200px;  
+}
+
+#form-wrapper label{
+    display: block;   
+}
+
+#form-wrapper input{
+    display: block;
+    width: 100%;
+}
+
+#form-wrapper button{
+    padding: 10; 
+}
+
+textarea {
+    resize: none;
+}
+
+

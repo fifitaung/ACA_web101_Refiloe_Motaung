@@ -3,7 +3,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-
     <title>NASA</title>
   </head>
 
@@ -14,38 +13,34 @@
       </div>
 
       <div class="flex-container">
-
-        <div id="socialMedia">
-          <h1>Social Media</h1>
-
-          <p>Twitter-@nasa</p>
-          <p>Faceboook-fb.com/nasa</p>
-          <p>Instagram-@nasa</p>
-          <p>Youtube-youtube.com/NASA</p>
+        <div id="socialMedia"> 
+          <h1>SOCIAL MEDIA</h1>
+          <br>
+          <p>Twitter-@nasa<br>
+              Faceboook-fb.com/nasa<br>
+              Instagram-@nasa <br>
+              Youtube-youtube.com/NASA</p>
         </div>
-
         <div id="officeInfo">
-
           <h1>OFFICE INFO</h1>
         </br>
-
-          <p>Public Communications Office</p>
-          <p>NASA Headquarters</p>
-          <p>300 E. Street SW, Suite 5R30</p>
-          <p> Washington, DC 20546</p>
-          <p>(202) 358-001 (Office)</p>
-          <p>(202)358-4338 (fax)</p>
+          <p>Public Communications Office<br>
+              NASA Headquarters<br>
+              300 E. Street SW, Suite 5R30<br>
+              Washington, DC 20546<br>
+              (202) 358-001 (Office)<br>
+              (202)358-4338 (fax)</p>
         </div>
-
         <div id="contactUs">
           <h1>CONTACT US</h1>
-
-          <p>Name</p>
-          <input id="name-entry">
-          <p>Message</p>
-          <textarea id="message-entry"></textarea>
-          <button id="send-button">SEND</button>
-          
+          <form id="form-wrapper">  
+                <label for="name-entry">Name <br></label>
+                <input type="name" id="name" required />
+                <label for="message"><br>Message</label>
+                <br>
+                <textarea id="message-entry" rows="6" cols="36" maxlength="100"></textarea>
+                <button id="send-button">SEND</button>
+            </form>
         </div>
       </div>
     </div>
