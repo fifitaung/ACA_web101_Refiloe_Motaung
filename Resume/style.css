@@ -58,9 +58,13 @@ img{
 
 #image:hover{
     cursor: pointer;
-    transform: scale(1.1);
-    transition: .2s ease-in-out;
-
+   
+}
+#num{
+    cursor: pointer;
+}
+#name{
+    cursor: pointer;
     
 }
 
